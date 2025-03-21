@@ -6,36 +6,78 @@ Console.WriteLine("3. Verificar se o aluno foi aprovado ou reprovado (média >= 
 Console.WriteLine();
 
 int[] notas = new int[5];
-int soma = 0;
+double soma = 0;
 
-for(int i = 0; i < notas.Length; i++)
+try
 {
-    Console.WriteLine($"Digite sua nota numero {i + 1}.");
-    notas[i] = int.Parse(Console.ReadLine());
-    soma = soma + notas[i];
+    for (int i = 0; i < notas.Length; i++)
+    {
+        Console.WriteLine($"Digite sua nota número {i + 1}.");
+        notas[i] = int.Parse(Console.ReadLine());
+        if (notas[i] < 0 || notas[i] > 10)
+        {
+            throw new ArgumentException();
+        }
+        else
+        {
+            soma = soma + notas[i];
+        }
+    }
+    Console.WriteLine();
+
+    for (int i = 0; i < notas.Length; i++)
+    {
+        Console.WriteLine($"Sua nota número {i + 1}ª foi {notas[i]}.");
+    }
+    Console.WriteLine();
+    Console.WriteLine($"Sua media foi {soma / 5}.");
+
+    Console.WriteLine();
+    double media = soma / 5.0;
+
+    if (media >= 7)
+    {
+        Console.WriteLine("Voce foi aprovado!!");
+    }
+    else
+    {
+        Console.WriteLine("Voce foi reprovado!!");
+
+    }
+}
+catch (FormatException ex)
+{
+    Console.WriteLine("Erro: O tipo valor informado é inválido.");
+}
+catch (OverflowException ex)
+{
+    Console.WriteLine("Erro: O valor informado excede o limite de tamanho.");
+}
+catch (ArgumentException ex)
+{
+    Console.WriteLine("Erro: O valor informado não pode ser negativo ou acima de 10.");
 }
 Console.WriteLine();
 
-for (int i = 0; i < notas.Length; i++)
-{
-    Console.WriteLine($"Sua nota numero {i + 1} foi {notas[i]}.");
-}
+Console.WriteLine("=== Gerenciador de Notas ===\r\n");
+Console.WriteLine("1. Adicionar aluno\r\n");
+Console.WriteLine("2. Listar alunos\r\n");
+Console.WriteLine("3. Estatísticas\r\n");
+Console.WriteLine("4. Sair\r\n");
 Console.WriteLine();
-Console.WriteLine($"Sua media foi {soma / 5}.");
 
+
+Console.WriteLine("Escolha uma opção:");
 Console.WriteLine();
-int media = soma / 5;
-
-if (media >= 7)
-{
-    Console.WriteLine("Voce foi aprovado!!");
-}
-else
-{
-    Console.WriteLine("Voce foi reprovado!!");
-
-}
-
-
-
-
+//int escolha = int.Parse(Console.ReadLine());
+//if (escolha < 1 || escolha > 4)
+//{
+//    throw new ArgumentException();
+//}
+//else
+//{
+//    if (escolha == 1)
+//    {
+        
+//    }
+//}
