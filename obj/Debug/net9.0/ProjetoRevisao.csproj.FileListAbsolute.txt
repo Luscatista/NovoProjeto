@@ -13,3 +13,18 @@ C:\Users\fic\source\repos\ProjetoConsole\ProjetoRevisao\obj\Debug\net9.0\Projeto
 C:\Users\fic\source\repos\ProjetoConsole\ProjetoRevisao\obj\Debug\net9.0\ProjetoRevisao.genruntimeconfig.cache
 C:\Users\fic\source\repos\ProjetoConsole\ProjetoRevisao\obj\Debug\net9.0\ref\ProjetoRevisao.dll
 C:\Users\fic\source\repos\ProjetoConsole\ProjetoRevisao\obj\Debug\net9.0\ProjetoRevisao.sourcelink.json
+C:\Users\lucas\Documents\Senai\Portifólio de exercícios\Projeto de Revisao\NovoProjeto\bin\Debug\net9.0\ProjetoRevisao.exe
+C:\Users\lucas\Documents\Senai\Portifólio de exercícios\Projeto de Revisao\NovoProjeto\bin\Debug\net9.0\ProjetoRevisao.deps.json
+C:\Users\lucas\Documents\Senai\Portifólio de exercícios\Projeto de Revisao\NovoProjeto\bin\Debug\net9.0\ProjetoRevisao.runtimeconfig.json
+C:\Users\lucas\Documents\Senai\Portifólio de exercícios\Projeto de Revisao\NovoProjeto\bin\Debug\net9.0\ProjetoRevisao.dll
+C:\Users\lucas\Documents\Senai\Portifólio de exercícios\Projeto de Revisao\NovoProjeto\bin\Debug\net9.0\ProjetoRevisao.pdb
+C:\Users\lucas\Documents\Senai\Portifólio de exercícios\Projeto de Revisao\NovoProjeto\obj\Debug\net9.0\ProjetoRevisao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Documents\Senai\Portifólio de exercícios\Projeto de Revisao\NovoProjeto\obj\Debug\net9.0\ProjetoRevisao.AssemblyInfoInputs.cache
+C:\Users\lucas\Documents\Senai\Portifólio de exercícios\Projeto de Revisao\NovoProjeto\obj\Debug\net9.0\ProjetoRevisao.AssemblyInfo.cs
+C:\Users\lucas\Documents\Senai\Portifólio de exercícios\Projeto de Revisao\NovoProjeto\obj\Debug\net9.0\ProjetoRevisao.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Documents\Senai\Portifólio de exercícios\Projeto de Revisao\NovoProjeto\obj\Debug\net9.0\ProjetoRevisao.sourcelink.json
+C:\Users\lucas\Documents\Senai\Portifólio de exercícios\Projeto de Revisao\NovoProjeto\obj\Debug\net9.0\ProjetoRevisao.dll
+C:\Users\lucas\Documents\Senai\Portifólio de exercícios\Projeto de Revisao\NovoProjeto\obj\Debug\net9.0\refint\ProjetoRevisao.dll
+C:\Users\lucas\Documents\Senai\Portifólio de exercícios\Projeto de Revisao\NovoProjeto\obj\Debug\net9.0\ProjetoRevisao.pdb
+C:\Users\lucas\Documents\Senai\Portifólio de exercícios\Projeto de Revisao\NovoProjeto\obj\Debug\net9.0\ProjetoRevisao.genruntimeconfig.cache
+C:\Users\lucas\Documents\Senai\Portifólio de exercícios\Projeto de Revisao\NovoProjeto\obj\Debug\net9.0\ref\ProjetoRevisao.dll
